@@ -33,7 +33,7 @@ else:
     emoji_st = w.status
 
 
-token = "5906955786:AAF98jMb0h2vjl8CoLiw8oOEq9v1KUbSYAs"
+token = "TOKEN"
 bot = telebot.TeleBot(token, parse_mode=None)
 
 
