@@ -39,7 +39,7 @@ bot = telebot.TeleBot(token, parse_mode=None)
 
 @bot.message_handler(commands=['weather'])
 def start_message(message):
-    mes = (f' Погода в Ольхонскомнском районе: \n{emoji_st}\nтемпература сейчас: {t1} °C'
+    mes = (f' Погода в Ольхонском районе: \n{emoji_st}\nтемпература сейчас: {t1} °C'
     f'\nощущается как: {t2} °C \nминимальная за сутки: {t3} °C \nмаксимальная за сутки: {t4} °C'
     f'\n ***\U0001F600 Хорошего дня! \U0001F600***')
     bot.send_message(message.chat.id, mes)
